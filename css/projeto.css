@@ -1,0 +1,126 @@
+html{ height:100% 
+     
+      
+}
+
+body{ height:100%
+    margin 0%   
+}
+Projeto {font-size:30px;
+    text-align:center;
+    color: black;
+    background-image:url(projeto.css/img/menu.jpg) 
+    
+}
+xadrez{
+    font-size:30px;
+    text-align:center;
+    color: black;
+    
+
+}
+header{
+    background-color:#0af37e;
+    }
+    
+
+nav ul{
+    box-sizing:border-box;
+    padding: 0;
+    list-style-type:none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a :hover{ cursor: pointer;
+    color: blanchedalmond
+    border-botton 20px solid blanchedalmond;
+   
+}
+   
+ul li:nth-child(1)
+{
+    animation-transition: 1;
+    color: yellow;
+}
+ul li:nth-child(2)
+{
+    animation-transition: 2;
+    color: yellow;
+}
+ul li:nth-child(3)
+{
+    animation-transition: 3}
+    color:yellow;
+
+.antes::before{
+    content:"Conteudo antes";
+    color: yellow
+}
+.depois:: after{
+    content:"conteudo depois";
+    color: black;
+}
+h2{
+    color: grey;
+    text: center;
+    animation-property: border-color;
+    }
+@keyframes h2{
+    0%{ background-color: yellow;}
+    50% { background-color: red;}
+    100%{background-color: black;}
+}
+a: hover @keyframes{
+color: yellow;
+}
+#p{
+    margin-top: 16px;
+    margin-bottom: 10px;
+    background-image: none;
+    padding: 2px;
+    color: black;
+    
+}
+#p1{ margin-top: 16px;
+    margin-bottom: 10px;
+    background-image: none;
+    padding: 2px;
+    color: black;
+    }
+
+#p2{ margin-top: 16px;
+    margin-bottom: 10px;
+    background-image: none;
+    padding: 2px;
+    color: black;}
+
+.class{
+    float: none;
+
+}
+
+#rodape{
+    
+    font-size: 50px;
+    color: rgb(189, 40, 97);
+    background-color: #0af37e;
+    text-align:center;}
+
+#button{ 
+    background-color: lavenderblush;
+    color: black;
+    transition-duration: 0,5s;
+
+}
+#button:hover{
+    border:none;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
